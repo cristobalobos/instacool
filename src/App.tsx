@@ -10,6 +10,7 @@ function App() {
       <Header />
       <Intro text="Texto para intro 1" />
       <Intro text="Texto para intro 2" />
+      <Intro />
     </div>
   );
 }
