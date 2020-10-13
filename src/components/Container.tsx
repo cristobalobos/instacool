@@ -3,6 +3,7 @@ import * as React from "react";
 const style = {
   alignItems: "center",
   backgroundColor: "#eee",
+  color: "#fff",
   display: "flex",
   height: "calc(100vh-20px)",
   justifyContent: "center",
