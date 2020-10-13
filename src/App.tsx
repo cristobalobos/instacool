@@ -2,10 +2,15 @@ import React from "react";
 
 import "./App.css";
 import Card from "./components/Card";
+import Container from "./components/Container";
 
 class App extends React.Component {
   public render() {
-    return <Card>LALA</Card>;
+    return (
+      <Container>
+        <Card>LALA</Card>
+      </Container>
+    );
   }
 }
 
