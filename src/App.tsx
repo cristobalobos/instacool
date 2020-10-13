@@ -1,18 +1,12 @@
 import React from "react";
 
 import "./App.css";
-import Header from "./components/Header";
-import Intro from "./components/Intro";
+import Card from "./components/Card";
 
-function App() {
-  return (
-    <div className="App">
-      <Header />
-      <Intro text="Texto para intro 1" />
-      <Intro text="Texto para intro 2" />
-      <Intro />
-    </div>
-  );
+class App extends React.Component {
+  public render() {
+    return <Card>LALA</Card>;
+  }
 }
 
 export default App;
